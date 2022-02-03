@@ -1,4 +1,4 @@
-import Document from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
@@ -25,5 +25,24 @@ export default class MyDocument extends Document {
 		} finally {
 			sheet.seal();
 		}
+	}
+
+	render() {
+		return (
+			<Html lang='en-GB'>
+				<Head>
+					<link rel='preconnect' href='https://fonts.googleapis.com' />
+					<link rel='preconnect' href='https://fonts.gstatic.com' />
+					<link
+						href='https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:ital,wght@0,400;0,500;1,300;1,400;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap'
+						rel='stylesheet'
+					></link>
+				</Head>
+				<body>
+					<Main />
+					<NextScript />
+				</body>
+			</Html>
+		);
 	}
 }
