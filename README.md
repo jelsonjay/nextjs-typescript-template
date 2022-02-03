@@ -6,4 +6,4 @@ This is a Next.js and Typescript Boilerplate
 
 Just clone this repo and install npm install
 
-## Feel free to use thi tamplate
+## Feel free to use this tamplate
