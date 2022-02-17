@@ -1,6 +1,6 @@
 ## About the project
 
-This is a Next.js and Typescript Boilerplate
+This is a Next.js Typescript and styled-components Boilerplate
 
 ## Instalation
 
